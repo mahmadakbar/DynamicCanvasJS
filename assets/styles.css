@@ -1,0 +1,64 @@
+#chartContainer{
+	margin: 20px 0 0 4%;
+	height: 400px;
+	width: 90%;
+}
+
+#monitor{
+	position: relative;
+	margin-top: 50px;
+	margin-left: 25%;
+	height: 150px;
+	width: 43%;
+	/*border: 5px solid black;*/
+}
+
+#m_kelembapan{
+	position: absolute;
+	padding: 10px;
+	margin: 10px;
+	height: 100px;
+	width: 40%;
+	color: #2980b9;
+	/*border: 5px solid black;*/
+}
+
+#m_suhu{
+	position: absolute;
+	padding: 10px;
+	margin: 10px;
+	right: 0;
+	height: 100px;
+	width: 40%;
+	color: #c0392b;
+	/*border: 5px solid black;*/
+}
+
+h1{
+	font-size: 50px;
+	float: right;
+}
+.p_kelembapan{
+	position: absolute;
+	margin-top: 0;
+	margin-left: 25%;
+	font-size: 20px;
+}
+.p_suhu{
+	position: absolute;
+	margin-top: 0;
+	margin-left: 40%;
+	font-size: 20px;
+}
+
+#humidity_ico{
+	margin-top: 30px;
+	height: 80px;
+	width: 80px;
+}
+
+#thermometer_ico{
+	margin-top: 30px;
+	height: 80px;
+	width: 80px;
+}
